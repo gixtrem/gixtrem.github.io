@@ -1,0 +1,31 @@
+.body {
+  text-align: center;
+}
+.color {
+  background-color: hotpink;
+}
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fca6c9;
+}
+.gospel-principle {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15em;
+}
+.header {
+  color: white;
+}
+.hero {
+  color: white;
+}
+.header-title:hover {
+  color: black;
+}
+.footer-quote {
+  font-size: 100%;
+}
