@@ -1,0 +1,101 @@
+#content {
+  width: max-content;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+nav a {
+  text-align: center;
+  color: RED;
+  text-decoration: none;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+  background-color: rgb(62, 68, 72);
+}
+body {
+  background-color: #987284;
+}
+header {
+  background-color: #0c1c1e;
+}
+nav a:hover {
+  background-color: #d0d6b5;
+  color: #987284;
+}
+.book {
+  background-color: #241614;
+  color: rgb(126, 120, 109);
+  text-decoration: none;
+}
+
+.join {
+  background-color: #ee7674;
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+  margin: 35em;
+}
+.book:hover {
+  background-color: #987284;
+  color: purple;
+}
+.join:hover {
+  background-color: #505a5b;
+  color: darkgrey;
+}
+.msg {
+  background-color: #d0d6b5;
+}
+footer {
+  background-color: #2f1919;
+  color: darkolivegreen;
+}
+.home-title {
+  color: violet;
+}
+h4 {
+  color: rgb(22, 12, 32);
+}
+.msg h2 {
+  color: rgb(27, 33, 33);
+}
+.msg p {
+  color: darkgreen;
+}
+footer a {
+  color: darksalmon;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(81, 84, 84);
+}
+.icon {
+  width: 80px;
+}
+.logo {
+  width: 80px;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+.mountains {
+  width: 300px;
+}
