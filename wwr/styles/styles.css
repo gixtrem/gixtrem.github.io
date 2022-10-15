@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+
 #content {
   width: max-content;
   margin-top: 0%;
@@ -10,6 +12,7 @@ nav a {
   text-align: center;
   color: RED;
   text-decoration: none;
+  padding: 35px;
 }
 #hero-msg h1 {
   text-align: center;
@@ -29,6 +32,13 @@ main section {
 }
 body {
   background-color: #987284;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
 }
 header {
   background-color: #0c1c1e;
@@ -41,14 +51,21 @@ nav a:hover {
   background-color: #241614;
   color: rgb(126, 120, 109);
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .join {
   background-color: #ee7674;
   color: gray;
   text-decoration: none;
-  text-align: center;
   margin: 35em;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover {
   background-color: #987284;
@@ -60,13 +77,21 @@ nav a:hover {
 }
 .msg {
   background-color: #d0d6b5;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
   background-color: #2f1919;
   color: darkolivegreen;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 .home-title {
   color: violet;
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "lobster",
+    "lobster", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
 }
 h4 {
   color: rgb(22, 12, 32);
@@ -76,6 +101,8 @@ h4 {
 }
 .msg p {
   color: darkgreen;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 footer a {
   color: darksalmon;
@@ -86,6 +113,7 @@ footer a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 .logo {
   width: 80px;
@@ -98,4 +126,22 @@ footer p a:hover {
 }
 .mountains {
   width: 300px;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.social {
+  padding-top: 15px;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #505a5b;
+}
+main section img {
+  box-sizing: border-box;
 }

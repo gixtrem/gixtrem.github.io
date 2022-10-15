@@ -1,0 +1,44 @@
+body,
+html {
+  text-align: center;
+}
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 1800px;
+}
+
+.origin {
+  width: 100%;
+  display: block;
+}
+.container {
+  background-color: grey;
+  font-size: 10px;
+  width: 100%;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 150px;
+  margin: 10px;
+  border: 10px solid black;
+}
+
+/* .first {
+  width: 150px;
+  border-radius: 70%;
+  margin: 10em;
+}
+
+.second {
+  width: 150px;
+  border-radius: 70%;
+  margin: 10em;
+}
+
+.third {
+  width: 150px;
+  border-radius: 70%;
+  margin: 10em;
+} */
