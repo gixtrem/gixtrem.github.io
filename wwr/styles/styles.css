@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
-
+body {
+  height: 100px;
+}
 #content {
-  width: max-content;
+  /* width: max-content; */
   margin-top: 0%;
-  margin-bottom: 0%;
+  max-width: 1600px;
+
+  /* margin-bottom: 0%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   text-align: center;
 }
 nav a {
@@ -125,12 +129,12 @@ footer p a:hover {
   text-decoration: underline;
 }
 .mountains {
-  width: 300px;
+  width: 1500px;
 }
 #logo_link {
   padding-top: 5px;
 }
-.social {
+footer .social img {
   padding-top: 15px;
 }
 .rivers-card {
@@ -144,4 +148,7 @@ footer p a:hover {
 }
 main section img {
   box-sizing: border-box;
+}
+.hero-img {
+  width: 3100px;
 }
