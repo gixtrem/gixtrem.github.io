@@ -46,6 +46,7 @@ h2 {
 }
 header {
   background-color: #0c1c1e;
+  text-align: left;
 }
 nav a:hover {
   background-color: #d0d6b5;

@@ -10,6 +10,7 @@
 } */
 .content {
   text-align: center;
+  max-width: 1000px;
 }
 .info {
   display: grid;
@@ -20,13 +21,13 @@
 }
 h2 {
   text-align: right;
-  margin-right: 26%;
+  margin-right: 15%;
   margin-top: 0px;
   color: red;
 }
 .cherry img {
   max-width: 10000px;
-  margin-left: -25%;
+  margin-left: -35%;
   margin-top: -150%;
   width: 500px;
 }
