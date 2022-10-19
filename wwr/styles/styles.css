@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 body {
-  height: 100px;
+  width: 100%;
 }
 #content {
   /* width: max-content; */
@@ -151,5 +151,5 @@ main section img {
   box-sizing: border-box;
 }
 .hero-img {
-  width: 3100px;
+  width: 100%;
 }
