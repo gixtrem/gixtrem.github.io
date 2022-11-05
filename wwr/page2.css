@@ -1,0 +1,74 @@
+#content {
+  /* width: max-content; */
+  margin-top: 0%;
+  max-width: 1600px;
+
+  /* margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+}
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+body {
+  width: 100%;
+}
+#storage {
+  /* width: max-content; */
+  margin-top: 0%;
+  max-width: 1600px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color: RED;
+  text-decoration: none;
+  padding: 35px;
+}
+.msg {
+  background-color: #d0d6b5;
+  /* line-height: 1.5em; */
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-bottom: 5%;
+}
+body {
+  background-color: #65173b;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.faq {
+  background-color: #677622;
+  /* line-height: 1.5em; */
+  padding: 35px;
+  grid-column: 8/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-top: 5%;
+}
+.blog {
+  background-color: #e4f1b3;
+  /* line-height: 1.5em; */
+  padding: 35px;
+  grid-column: 8/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #d6dfbb;
+  margin-top: 5%;
+}
+.rates {
+  background-color: #def48f;
+  /* line-height: 1.5em; */
+  padding: 35px;
+  grid-column: 8/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #d6dfbb;
+  margin-top: 5%;
+}
