@@ -273,3 +273,6 @@ main section img {
     margin-top: 25px;
   }
 }
+.img {
+  border: 10px solid #505a5b;
+}

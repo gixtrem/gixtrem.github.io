@@ -35,6 +35,22 @@ body {
   font-size: 18px;
   text-align: center;
 }
+.slot-img {
+  border: 10%;
+  border-radius: 20%;
+  box-sizing: border-box;
+  border: 5px solid #5e4d0e;
+}
+.slot1-img {
+  border: 10%;
+  border-radius: 20%;
+  border: 5px solid #5e4d0e;
+}
+.slot2-img {
+  border: 10%;
+  border-radius: 20%;
+  border: 5px solid #5e4d0e;
+}
 img {
   display: block;
   margin: 0 auto;
