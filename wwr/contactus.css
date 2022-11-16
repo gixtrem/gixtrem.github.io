@@ -50,7 +50,7 @@ textarea {
   vertical-align: top;
 
   /* Provide space to type some text */
-  height: 5em;
+  height: 8em;
 }
 
 .button {
@@ -77,10 +77,7 @@ button {
 .moveDown {
   margin-top: 3em;
 }
-.sect {
-  margin-top: 0%;
-  justify-items: right;
-}
+
 .title {
   text-align: center;
 }
@@ -136,4 +133,15 @@ footer p a:hover {
 
 footer .social img {
   padding-top: 15px;
+}
+
+.email1 {
+  margin-top: 2%;
+}
+.name1 {
+  margin-top: 2%;
+}
+.sect {
+  margin-top: 2%;
+  justify-items: right;
 }
