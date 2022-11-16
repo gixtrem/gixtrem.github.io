@@ -22,12 +22,12 @@
       <h1>CONTACT US</h1>
     </div>
     <div id="feedback"></div>
-    <form action="./contactus.html" method="get" class="form-example">
+    <form action="feedback" method="post" class="form-example">
       <ul>
         <li>
           <div class="name1">
             <label for="name">Name: </label>
-            <input type="text" name="name" id="name" required />
+            <input type="text" name="user_name" id="name" required />
           </div>
         </li>
       </ul>
@@ -35,7 +35,7 @@
         <li>
           <div class="email1">
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email" required />
+            <input type="email" name="user_email" id="email" required />
           </div>
         </li>
       </ul>
@@ -43,7 +43,7 @@
         <li>
           <div class="sect">
             <label for="description">Description </label>
-            <textarea name="data" id="description" cols="30" rows="10">
+            <textarea name="user_message" id="description" cols="30" rows="10">
             please enter your message!</textarea
             >
           </div>
@@ -60,7 +60,24 @@
 
         </ul> -->
     </form>
+
+    <footer>
+      <p>Dry Oar &copy; 20XX - Your First and Last Name Here</p>
+      <p><a href="./site-plan-rafting.html">Site Plan</a></p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter.png" alt="twitter icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+    </footer>
     <script>
+      console.log("Hi");
       // get the feedback div element so we can do something with it.
       const feedbackElement = document.getElementById("feedback");
       // get the form so we can read what was entered in it.
@@ -80,20 +97,5 @@
         document.body.classList.toggle("moveDown");
       });
     </script>
-    <footer>
-      <p>Dry Oar &copy; 20XX - Your First and Last Name Here</p>
-      <p><a href="./site-plan-rafting.html">Site Plan</a></p>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank">
-          <img src="images/facebook.png" alt="fb icon" />
-        </a>
-        <a href="https://twitter.com" target="_blank">
-          <img src="images/twitter.png" alt="twitter icon" />
-        </a>
-        <a href="https://instagram.com" target="_blank">
-          <img src="images/instagram.png" alt="instagram icon" />
-        </a>
-      </div>
-    </footer>
   </body>
 </html>
