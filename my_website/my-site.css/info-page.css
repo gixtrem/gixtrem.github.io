@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 body {
-  width: 100%;
+  width: 1800%;
 }
 
 .page1 {
@@ -525,7 +525,7 @@ footer {
 /* Slideshow container */
 .slideshow-container {
   margin-left: 1%;
-  max-width: 1000px;
+  max-width: 1600px;
   position: relative;
   /* margin: auto; */
 }
