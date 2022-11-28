@@ -14,7 +14,6 @@ body {
 .page4 {
   margin-top: 2%;
   background-color: #3c2216;
-  padding: auto;
   color: white;
 }
 .head-top {
@@ -303,7 +302,7 @@ footer {
   font-size: 50px;
   outline: none;
   border: none;
-  padding: opx 20px;
+  padding: 0px 20px;
   /* cursor: pointer; */
   /* margin-top: 5%;
   margin-left: 10%; */

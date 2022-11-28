@@ -10,7 +10,6 @@ Fonts are separated by a | */
   --accent1-color: #a42212;
   --accent2-color: white;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
@@ -26,8 +25,6 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396e94;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,18 +33,18 @@ body {
   text-align: center;
 }
 .slot-img {
-  border: 10%;
+  /* border: 10%; */
   border-radius: 20%;
   box-sizing: border-box;
   border: 5px solid #5e4d0e;
 }
 .slot1-img {
-  border: 10%;
+  /* border: 10%; */
   border-radius: 20%;
   border: 5px solid #5e4d0e;
 }
 .slot2-img {
-  border: 10%;
+  /* border: 10%; */
   border-radius: 20%;
   border: 5px solid #5e4d0e;
 }
