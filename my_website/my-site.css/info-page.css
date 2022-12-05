@@ -310,11 +310,11 @@ footer {
 .icon:hover {
   color: yellow;
 }
-
+/* 
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 body {
   width: 100%;
-}
+} */
 .head-top {
   color: red;
   margin-top: 4%;
